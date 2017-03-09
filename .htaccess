@@ -1,4 +1,4 @@
-RewriteEngine On
-Options +FollowSymlinks
-RewriteBase /
-RewriteRule ^upload$ /upload.php
+#RewriteEngine On
+#Options +FollowSymlinks
+#RewriteBase /
+#RewriteRule ^upload$ /upload.php

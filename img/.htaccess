@@ -1,6 +1,6 @@
-RewriteEngine On
-Options +FollowSymlinks
-RewriteBase /
+#RewriteEngine On
+#Options +FollowSymlinks
+#RewriteBase /
 
-RewriteCond %{HTTP_USER_AGENT} Wget.*
-RewriteRule .* /404.html [F]
+#RewriteCond %{HTTP_USER_AGENT} Wget.*
+#RewriteRule .* /404.html [F]

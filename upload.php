@@ -1,6 +1,6 @@
 <?php
  //e.g. http://server.tld/
- $url = ""; 
+ $url = "https://my-server.com/upload_image"; 
 
  $file = $_FILES['userfile'];
  
@@ -101,7 +101,7 @@
    $md5 = md5_file($uploadfile);
    rename("$uploadfile", "$uploaddir$md5.$ext"); 
 
-     date_default_timezone_set("Asia/Omsk");
+     date_default_timezone_set("Asia/Yekaterinburg");
      $time = date("d.m.y");
      $filesize = filesize("$uploaddir$md5.$ext");
      $size = (int)($filesize/1024);
